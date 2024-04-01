@@ -1,4 +1,4 @@
-1 ETH was accidentally sent to a contract address on mainnet instead of the Sepolia testnet.
+1 ETH was accidentally sent to a contract address on mainnet instead of Sepolia.
 
-- Created a contract on mainnet with the same address (same private key, same nonce)
-- Created a minimal contract because deploying the same contract was too expensive
+- Used the same private key and nonce to deploy a contract to the same address
+- Wrote a minimal contract because the deploying the testnet contract on mainnet was too expensive
